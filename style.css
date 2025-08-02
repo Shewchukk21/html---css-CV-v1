@@ -21,6 +21,11 @@
   font-weight: normal;
   font-style: normal;
 }
+.containerr{
+  max-width: 750px;
+  margin: auto;
+ margin-top: 50px;
+}
 body{
   background-color: #fdfdfd;
   display: flex;
@@ -69,14 +74,10 @@ hr{
   font-family: "Lato";
   font-size: 21px;
 }
-.Contact-list{
-  font-family: "Lato";
-  font-size: 21px;
-  line-height: 1.5;
-}
+
 .container_2{
   display: flex;
-  justify-content: space-around; 
+  justify-content: space-between; 
   gap: 40px;
   margin-top: 50px;
 
@@ -91,27 +92,29 @@ hr{
     font-family: "Lato";
   font-size: 25px;
    line-height: 3.0;
-   width: 500px;
    list-style: none;
 }
 .hard_Skills_list{
     font-family: "Lato";
     font-size: 25px;
     line-height: 2.2;
-      width: 500px;
   list-style: none;
+}
+.Contact-list{
+  font-family: "Lato";
+  font-size: 21px;
+  line-height: 1.5;
 }
 .Contact-list a{
    text-decoration: none;
+     color: black;
 }
 .Contact-list li {
   list-style: none;
   padding-left: 0;
-}
-.Contact-list li {
-  position: relative;
+  color: black;
+    position: relative;
   padding-left: 30px;
-  
 }
 .Contact-list li::before {
   content: "";
