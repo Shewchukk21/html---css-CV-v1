@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Now';
+  src: url('fonts/Now-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Now';
+  src: url('fonts/Now-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Now';
+  src: url('fonts/Now-Light.otf') format('opentype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts\Lato-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  background-color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: space-around; 
+  gap: 40px;
+  margin-top: 50px;
+}
+.contact, .Profile {
+  width: 45%;
+}
+.header hr{
+  border: none;
+  height: 3px;
+  background-color: #163853; 
+}
+hr{
+  border: none;
+  height: 2px;
+  background-color: #163853; 
+}
+.container h1{
+  font-family: "Now";
+  font-size: 54px;
+  margin: 0;
+  font-weight: normal;
+}
+.header h1{
+   font-family: "Now";
+   font-size: 81px;
+   margin: 0;
+    border-radius: 10px;
+    width: 600px;
+    background-color: 	#f5a623;
+}
+.subtitle{
+   font-family: "Now";
+   font-size: 37px;
+   font-weight: 300;
+   margin: 0 0 0 8px;
+}
+.Profile_content{
+  font-family: "Lato";
+  font-size: 21px;
+}
+.Contact-list{
+  font-family: "Lato";
+  font-size: 21px;
+  line-height: 1.5;
+}
+.container_2{
+  display: flex;
+  justify-content: space-around; 
+  gap: 40px;
+  margin-top: 50px;
+
+}
+.container_2 h1{
+  font-family: "Now";
+  font-size: 54px;
+  margin: 0;
+  font-weight: normal;
+}
+.soft_Skills_list{
+    font-family: "Lato";
+  font-size: 25px;
+   line-height: 3.0;
+   width: 500px;
+   list-style: none;
+}
+.hard_Skills_list{
+    font-family: "Lato";
+    font-size: 25px;
+    line-height: 2.2;
+      width: 500px;
+  list-style: none;
+}
+.Contact-list a{
+   text-decoration: none;
+}
+.Contact-list li {
+  list-style: none;
+  padding-left: 0;
+}
+.Contact-list li {
+  position: relative;
+  padding-left: 30px;
+  
+}
+.Contact-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gmail::before     { background-image: url("vecteezy_email-icon-with-a-black-and-white-background_48692184.jpg"); }
+.LinkedIn::before  { background-image: url("in.png"); }
+.Telegram::before  { background-image: url("telegram.png"); }
+.Inst::before      { background-image: url("inst.png"); }
+
+.Contact-list a:hover {
+  color: #163853;
+  text-decoration: underline;
+}
